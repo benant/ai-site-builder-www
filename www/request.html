@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>제작 의뢰 — ASBA | AI 사이트 제작 에이전트</title>
+  <meta name="description" content="GitHub 사용자 이름과 사이트 정보만 입력하면 AI 기획서와 디자인 시안 3종을 무료로 받아보세요." />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="./">AS<span>BA</span></a>
+      <nav class="nav">
+        <a href="./index.html#process">진행 과정</a>
+        <a href="./index.html#pricing">견적</a>
+        <a href="./index.html#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container form-page">
+    <div class="page-title">
+      <h1>제작 의뢰하기</h1>
+      <p>입력하신 정보로 AI 기획서와 <b>디자인 시안 3종</b>을 무료로 만들어 드립니다.<br />
+        시안을 확인한 후에 결제(PayPal) 여부를 결정하시면 됩니다.</p>
+    </div>
+
+    <form id="intake-form" class="form-card" novalidate>
+
+      <!-- Step 1: GitHub 계정 -->
+      <fieldset>
+        <legend><span class="step-chip">1</span>GitHub 계정</legend>
+        <label class="fl" for="github-username">GitHub 사용자 이름 <span class="req">*</span></label>
+        <input type="text" id="github-username" name="github_username" placeholder="예) octocat" autocomplete="off" required />
+        <p class="hint">완성되면 이 계정을 고객 전용 저장소의 공동작업자로 초대합니다. <span id="gh-check"></span></p>
+      </fieldset>
+
+      <!-- Step 2: 카테고리 -->
+      <fieldset>
+        <legend><span class="step-chip">2</span>사이트 카테고리</legend>
+        <div class="radio-cards" id="category-cards"></div>
+      </fieldset>
+
+      <!-- Step 3: 템플릿 -->
+      <fieldset>
+        <legend><span class="step-chip">3</span>템플릿 큰 틀</legend>
+        <div class="template-list" id="template-list"><!-- 카테고리 선택 시 렌더 --></div>
+        <label class="check-item mt-16" style="max-width:340px;">
+          <input type="checkbox" id="auto-template" checked />
+          <span><b>AI 자동 선택</b><small>제가 고른 템플릿과 한 줄 설명으로 AI가 가장 알맞은 틀을 골라줍니다.</small></span>
+        </label>
+      </fieldset>
+
+      <!-- Step 4: 공통 정보 -->
+      <fieldset>
+        <legend><span class="step-chip">4</span>기본 정보</legend>
+        <div id="common-fields"></div>
+      </fieldset>
+
+      <!-- Step 5: 카테고리별 정보 -->
+      <fieldset>
+        <legend><span class="step-chip">5</span>사이트 상세 정보</legend>
+        <p class="hint" id="detail-hint">카테고리를 먼저 선택해 주세요.</p>
+        <div id="category-fields"></div>
+        <!-- 추가 페이지 / 옵션 (견적 반영) -->
+        <div class="field-row mt-16">
+          <div>
+            <label class="fl" for="extra-pages">추가 페이지 수 <span class="hint" style="display:inline;">(견적에 반영)</span></label>
+            <input type="number" id="extra-pages" value="0" min="0" max="20" />
+            <p class="hint" id="per-page-hint"></p>
+          </div>
+        </div>
+        <label class="fl">추가 옵션</label>
+        <div class="checks" id="form-options"></div>
+      </fieldset>
+
+      <!-- Step 6: 견적 확인 & 제출 -->
+      <fieldset style="border-bottom:none;margin-bottom:0;padding-bottom:0;">
+        <legend><span class="step-chip">6</span>견적 확인 및 제출</legend>
+        <div class="quote-box mb-16">
+          <ul id="form-quote-lines"></ul>
+          <div class="quote-total">
+            <strong>예상 견적</strong>
+            <span class="amount" id="form-quote-total">-</span>
+          </div>
+          <p class="paypal-note">
+            💡 위 금액은 예상 견적입니다. 최종 확정은 디자인 시안 선택 후이며, 결제는 <b>PayPal</b>로 진행됩니다.
+          </p>
+        </div>
+        <label class="agree mt-16">
+          <input type="checkbox" id="agree-terms" />
+          <span>AI 생성 결과물의 소유권이 의뢰자에게 귀속됨, 결제 전 무료 구간 운영 방침, 납품 후 <b>2주 수정 기간</b> 정책에 동의합니다.</span>
+        </label>
+        <div class="form-actions mt-24">
+          <button type="submit" class="btn btn-primary" id="submit-btn">무료로 접수하고 시작하기 →</button>
+          <a href="./index.html#faq" style="font-size:13.5px;color:var(--muted);">궁금한 점이 있나요? FAQ 보기</a>
+        </div>
+      </fieldset>
+    </form>
+
+    <div id="form-result" class="form-result" role="alert"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© 2026 ASBA — AI Site Builder Agent</div>
+      <div><a href="./index.html">홈으로</a></div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/data.js"></script>
+  <script src="./assets/js/request.js"></script>
+</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASBA — AI가 만들어주는 나만의 웹사이트 | GitHub 기반 AI 사이트 제작</title>
+  <meta name="description" content="깃허브 계정만 있으면 OK. 카테고리 선택 → 정보 입력 → AI 기획·디자인 시안 3종까지 무료. 결제 후 AI 에이전트가 직접 코딩해서 GitHub 저장소로 납품합니다." />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="./">AS<span>BA</span></a>
+      <nav class="nav">
+        <a href="#process">진행 과정</a>
+        <a href="#pricing">견적</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn-primary btn-sm" href="./request.html">무료로 시작하기</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="container">
+      <span class="badge">⚡ 깃허브 계정만 있으면 시작합니다</span>
+      <h1>아이디어만 주세요.<br /><em>AI 에이전트</em>가 사이트를 만들어<br />깃허브로 납품합니다.</h1>
+      <p class="sub">
+        카테고리를 고르고 필요한 정보를 알려주면, ASBA가 기획서와 디자인 시안 3종을 만들어 드립니다.
+        마음에 드는 시안을 고르고 결제하면, 나머지는 전부 자동입니다.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="./request.html">제작 의뢰하기 (기획·시안 무료)</a>
+        <a class="btn btn-secondary" href="#process">진행 과정 보기</a>
+      </div>
+      <p class="free-note">
+        ✅ 기획 + 디자인 시안 3종은 <strong>완전 무료</strong> · 결제는 마음에 드는 시안을 고른 후에, <strong>PayPal</strong>로
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== 진행 과정 (Carousel Timeline) ===== -->
+  <section class="block" id="process">
+    <div class="container">
+      <div class="section-head">
+        <h2>이렇게 진행됩니다</h2>
+        <p>의뢰부터 납품, 수정까지 전 과정이 GitHub 이슈로 투명하게 기록됩니다.</p>
+      </div>
+
+      <!-- 한 줄 step indicator -->
+      <div class="tl-rail-wrap">
+        <button type="button" class="tl-arrow tl-prev" aria-label="이전 단계">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+
+        <ol class="tl-rail" role="tablist" aria-label="진행 단계">
+          <li><button class="tl-dot is-free"  type="button" role="tab" data-i="0" aria-selected="true"><span>1</span></button></li>
+          <li><button class="tl-dot is-free"  type="button" role="tab" data-i="1"><span>2</span></button></li>
+          <li><button class="tl-dot is-free"  type="button" role="tab" data-i="2"><span>3</span></button></li>
+          <li class="tl-rail-gate"><button class="tl-dot is-gate" type="button" role="tab" data-i="3" aria-label="결제 게이트"><span>💳</span></button></li>
+          <li><button class="tl-dot is-paid"  type="button" role="tab" data-i="4"><span>4</span></button></li>
+          <li><button class="tl-dot is-paid"  type="button" role="tab" data-i="5"><span>5</span></button></li>
+          <li><button class="tl-dot is-paid"  type="button" role="tab" data-i="6"><span>6</span></button></li>
+        </ol>
+
+        <button type="button" class="tl-arrow tl-next" aria-label="다음 단계">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+
+      <!-- 큰 detail panel (carousel) -->
+      <div class="tl-stage">
+        <div class="tl-track" style="--i:0">
+          <article class="tl-panel is-free">
+            <header><span class="tl-tag">STEP 1 · 무료</span><h3>카테고리 &amp; 템플릿 선택</h3></header>
+            <p>랜딩, 포트폴리오, 쇼핑몰 등 사이트 유형을 고르고, 마음에 드는 템플릿을 선택하세요. 고르기 어렵다면 AI가 자동으로 골라드립니다.</p>
+            <p class="tl-meta">선택지: 6개 카테고리 · 12개 템플릿 · AI 자동 추천</p>
+          </article>
+          <article class="tl-panel is-free">
+            <header><span class="tl-tag">STEP 2 · 무료</span><h3>사이트 정보 입력</h3></header>
+            <p>사이트 이름, 소개 문구, 메뉴나 상품 정보 등 필요한 내용을 폼에 넣어주세요. 부족한 건 AI가 질문해 드립니다.</p>
+            <p class="tl-meta">평균 입력 시간: 5~10분 · 어디서든 저장 가능</p>
+          </article>
+          <article class="tl-panel is-free">
+            <header><span class="tl-tag">STEP 3 · 무료</span><h3>AI 기획 + 디자인 시안</h3></header>
+            <p>입력 정보를 바탕으로 사이트 기획서와 페이지별 구성을 만들고, 디자인 시안을 제시합니다.</p>
+            <p class="tl-meta">기획서 PDF · 디자인 시안 · 페이지 와이어 모두 포함</p>
+          </article>
+          <article class="tl-panel is-gate">
+            <header><span class="tl-tag">결제 GATE</span><h3>마음에 드는 시안을 고른 후 결제</h3></header>
+            <p>시안과 기획서를 검토한 뒤 진행 여부를 결정하세요. 결제는 PayPal로 안전하게, 결제가 확인되는 즉시 다음 단계가 자동으로 시작됩니다.</p>
+            <p class="tl-meta">PayPal 결제 · 환불 정책: 시안 확인 후 24시간 이내 100% 환불</p>
+          </article>
+          <article class="tl-panel is-paid">
+            <header><span class="tl-tag">STEP 4 · 유료</span><h3>시안 선택 후 결제</h3></header>
+            <p>가장 마음에 드는 시안을 골라 최종 견적을 확인하고 PayPal로 결제하세요. 결제가 확인되는 즉시 작업이 자동으로 시작됩니다.</p>
+            <p class="tl-meta">추가 옵션: 추가 시안 1종당 과금 · 옵션 변경 가능</p>
+          </article>
+          <article class="tl-panel is-paid">
+            <header><span class="tl-tag">STEP 5 · 유료</span><h3>AI가 페이지 제작</h3></header>
+            <p>선택한 시안 스타일로 모든 페이지를 제작해 고객 전용 GitHub 저장소에 커밋하고, GitHub Pages로 미리보기를 제공합니다.</p>
+            <p class="tl-meta">평균 작업 기간: 카테고리당 1~3일 · 진행 상황은 GitHub 이슈로 실시간 공유</p>
+          </article>
+          <article class="tl-panel is-paid">
+            <header><span class="tl-tag">STEP 6 · 수정 포함</span><h3>납품 &amp; 2주 수정 기간</h3></header>
+            <p>작업이 끝나면 알려드리고, 고객님을 저장소 공동작업자로 초대합니다. 이후 2주간 자유롭게 수정을 요청할 수 있습니다.</p>
+            <p class="tl-meta">수정 요청: 무제한 횟수 · 응답 SLA: 영업일 기준 24시간</p>
+          </article>
+        </div>
+
+        <div class="tl-dots" role="presentation">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 견적 계산기 ===== -->
+  <section class="block" id="pricing">
+    <div class="container">
+      <div class="section-head">
+        <h2>견적 미리 계산해 보기</h2>
+        <p>카테고리와 옵션만 고르면 예상 비용이 바로 계산됩니다.</p>
+      </div>
+      <div class="calc-wrap">
+        <div class="card">
+          <div class="field-row">
+            <div>
+              <label class="fl" for="calc-category">사이트 카테고리 <span class="req">*</span></label>
+              <select id="calc-category"></select>
+            </div>
+            <div>
+              <label class="fl" for="calc-pages">추가 페이지 수</label>
+              <input type="number" id="calc-pages" value="0" min="0" max="20" />
+            </div>
+          </div>
+          <label class="fl">추가 옵션</label>
+          <div class="checks" id="calc-options"></div>
+          <div class="quote-box">
+            <ul id="calc-lines"></ul>
+            <div class="quote-total">
+              <strong>예상 견적</strong>
+              <span class="amount" id="calc-total">-</span>
+            </div>
+            <p class="paypal-note">
+              💡 최종 견적은 디자인 시안 선택 후 확정되며, 결제는 <b>PayPal</b>로 진행됩니다.
+            </p>
+          </div>
+          <div class="text-center mt-24">
+            <a class="btn btn-primary" id="calc-cta" href="./request.html">이 구성으로 의뢰하기 →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 특징 ===== -->
+  <section class="block">
+    <div class="container">
+      <div class="section-head">
+        <h2>왜 ASBA인가요?</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <span class="icon">🆓</span>
+          <h3>시안 볼 때까지 0원</h3>
+          <p>기획서와 디자인 시안 3종을 받아본 뒤에 결제를 결정하세요. 마음에 안 들면 진행하지 않으셔도 됩니다.</p>
+        </div>
+        <div class="card">
+          <span class="icon">🐙</span>
+          <h3>GitHub으로 투명한 진행</h3>
+          <p>모든 요청·답변·작업 기록이 고객 전용 저장소의 이슈와 커밋으로 남습니다. 중간에 숨겨지는 게 없습니다.</p>
+        </div>
+        <div class="card">
+          <span class="icon">🤖</span>
+          <h3>AI 에이전트의 빠른 제작</h3>
+          <p>결제 확인 후 사람의 개입 없이 AI가 기획→디자인→코딩을 연속 수행하고, 페이지마다 미리보기로 보여줍니다.</p>
+        </div>
+        <div class="card">
+          <span class="icon">🔑</span>
+          <h3>소유권은 고객에게</h3>
+          <p>완성된 사이트의 코드는 고객 전용 저장소에 있으며, 공동작업자로 초대되어 직접 수정·관리할 수 있습니다.</p>
+        </div>
+        <div class="card">
+          <span class="icon">✏️</span>
+          <h3>2주 수정 기간 포함</h3>
+          <p>납품 후 14일 동안 GitHub 이슈로 수정을 요청하면 AI가 반영해 다시 커밋해 드립니다.</p>
+        </div>
+        <div class="card">
+          <span class="icon">🌐</span>
+          <h3>바로 배포되는 결과물</h3>
+          <p>GitHub Pages 주소로 실제 동작하는 사이트를 바로 확인하고 사용할 수 있습니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="block" id="faq">
+    <div class="container">
+      <div class="section-head"><h2>자주 묻는 질문</h2></div>
+      <div class="faq" style="max-width:760px;margin:0 auto;">
+        <details open>
+          <summary>정말 기획과 시안까지 무료인가요?</summary>
+          <p>네. 카테고리·템플릿 선택, 정보 입력, AI 기획서, 디자인 시안 3종 제공까지는 비용이 들지 않습니다. 시안 중 하나를 선택하고 결제하실 때만 비용이 발생합니다.</p>
+        </details>
+        <details>
+          <summary>결제는 어떻게 하나요?</summary>
+          <p>PayPal로 진행됩니다. 시안 선택 후 대시보드(저장소 이슈)에서 최종 견적과 함께 PayPal 결제 버튼을 제공하며, 결제 확인 즉시 작업이 자동으로 시작됩니다.</p>
+        </details>
+        <details>
+          <summary>GitHub 계정이 꼭 필요한가요?</summary>
+          <p>네. 의뢰 접수 시 GitHub 사용자 이름이 필요하고, 완료 후 고객 전용 저장소의 공동작업자로 초대되기 때문입니다. 무료로 누구나 만들 수 있습니다.</p>
+        </details>
+        <details>
+          <summary>제 사이트 내용이 다른 사람에게 보이지 않나요?</summary>
+          <p>고객별로 전용 비공개(private) 저장소를 새로 만들고, 그곳에 고객님만 초대됩니다. 다른 고객의 의뢰 내용과 겹치지 않습니다.</p>
+        </details>
+        <details>
+          <summary>수정은 어떻게 요청하죠?</summary>
+          <p>납품 후 2주간, 고객 전용 저장소에 "[REVIEW]" 형식의 이슈를 남기시면 AI가 분석해 반영하고 커밋으로 알려드립니다. 범위를 크게 벗어나는 변경은 추가 견적을 안내해 드립니다.</p>
+        </details>
+        <details>
+          <summary>시안이 마음에 안 들으면?</summary>
+          <p>피드백을 남겨주시면 최대 2회까지 시안을 다시 생성해 드립니다. 그래도 진행하지 않으셔도 되며, 이 경우 비용은 청구되지 않습니다.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="cta-band">
+    <div class="container">
+      <h2>5분이면 의뢰가 끝납니다</h2>
+      <p>오늘 접수하면 AI 기획서와 디자인 시안 3종을 가장 먼저 받아보세요.</p>
+      <a class="btn btn-primary" href="./request.html">지금 무료로 시작하기 →</a>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© 2026 ASBA — AI Site Builder Agent</div>
+      <div><a href="./request.html">제작 의뢰</a> · Powered by GitHub &amp; PayPal</div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/data.js"></script>
+  <script src="./assets/js/landing.js"></script>
+</body>
+</html>
