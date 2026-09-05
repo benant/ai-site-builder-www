@@ -15,7 +15,7 @@ ASBA.CATEGORIES = [
     defaultPages: 1,
     pagesLabel: "추가 섹션/서브페이지",
     icon: "🚀",
-    templates: ["t-landing-bold", "t-landing-minimal", "t-landing-gradient", "dl-play-bootstrap", "dl-enno", "dl-Active", "dl-Bliss", "dl-FlexStart", "dl-OnePage", "dl-iLanding", "dl-HeroBiz", "dl-AppVila", "dl-NexusAI", "dl-SaaSintro", "dl-Impact", "SB-OnePage", "SB-NewAge", "SB-ComingSoon", "SB-Scrolling Nav", "SB-Heroic Features", "Bootstrap-Templates-OnePage", "Bootstrap-Templates-NewAge", "Bootstrap-Templates-ComingSoon", "SB-Landing", "SB-OnePage2", "SB-NewAge2", "SB-HeroicFeatures2", "SB-ScrollingNav2", "SB-Grayscale", "SB-StylishPortfolio"]
+    templates: ["t-landing-bold", "t-landing-minimal", "t-landing-gradient", "dl-play-bootstrap", "dl-enno", "dl-Active", "dl-Bliss", "dl-FlexStart", "dl-OnePage", "dl-iLanding", "dl-HeroBiz", "dl-AppVila", "dl-NexusAI", "dl-SaaSintro", "dl-Impact", "SB-OnePage", "SB-NewAge", "SB-ComingSoon", "SB-Scrolling Nav", "SB-Heroic Features", "SB-Landing", "SB-Grayscale", "SB-StylishPortfolio"]
   },
   {
     code: "portfolio",
@@ -26,7 +26,7 @@ ASBA.CATEGORIES = [
     defaultPages: 4,
     pagesLabel: "추가 페이지",
     icon: "🎨",
-    templates: ["t-folio-grid", "t-folio-editorial", "dl-meyawo", "dl-Flat", "dl-Poseify", "dl-Kelly", "dl-iPortfolio", "dl-PhotoFolio", "SB-Freelancer", "SB-Resume", "ThemeWagon-Brivon", "Bootstrap-Templates-Freelancer", "Bootstrap-Templates-Resume", "SB-3ColPortfolio", "SB-PortfolioItem", "SB-Resume2", "SB-Creative2", "SB-Freelancer2", "StartBootstrap-Freelancer", "StartBootstrap-Resume"]
+    templates: ["t-folio-grid", "t-folio-editorial", "dl-meyawo", "dl-Flat", "dl-Poseify", "dl-Kelly", "dl-iPortfolio", "dl-PhotoFolio", "SB-Freelancer", "SB-Resume", "ThemeWagon-Brivon", "SB-3ColPortfolio", "SB-PortfolioItem", "SB-Creative2"]
   },
   {
     code: "business",
@@ -37,7 +37,7 @@ ASBA.CATEGORIES = [
     defaultPages: 4,
     pagesLabel: "추가 페이지",
     icon: "🏢",
-    templates: ["t-biz-classic", "t-biz-modern", "dl-arsha", "dl-Company", "dl-Gp", "dl-Sarab", "dl-Business", "dl-Salone", "dl-BizLand", "dl-Impact", "SB-Agency", "SB-Creative", "Bootstrap-Templates-Agency", "Bootstrap-Templates-Creative", "SB-Agency2", "SB-ModernBusiness", "SB-SmallBusiness", "StartBootstrap-Agency", "StartBootstrap-Creative"]
+    templates: ["t-biz-classic", "t-biz-modern", "dl-arsha", "dl-Company", "dl-Gp", "dl-Sarab", "dl-Business", "dl-Salone", "dl-BizLand", "dl-Impact", "SB-Agency", "SB-ModernBusiness", "SB-SmallBusiness"]
   },
   {
     code: "saas",
@@ -59,7 +59,7 @@ ASBA.CATEGORIES = [
     defaultPages: 5,
     pagesLabel: "추가 상품/페이지",
     icon: "🛒",
-    templates: ["t-shop-clean", "t-shop-vivid", "dl-organic", "dl-Plasery", "dl-Kaira", "dl-Furnish", "SB-Shop Homepage", "SB-ShopHomepage2", "SB-ShopItem"]
+    templates: ["t-shop-clean", "t-shop-vivid", "dl-organic", "dl-Plasery", "dl-Kaira", "dl-Furnish", "SB-Shop Homepage", "SB-ShopItem"]
   },
   {
     code: "blog",
@@ -81,7 +81,7 @@ ASBA.CATEGORIES = [
     defaultPages: 4,
     pagesLabel: "추가 페이지",
     icon: "☕",
-    templates: ["t-resto-warm", "t-resto-dark", "dl-feane", "dl-Tiya", "dl-Restaurantly", "dl-Dewi", "dl-Hilux", "ThemeWagon-SpiceHaven", "ThemeWagon-SpiceHaven2"]
+    templates: ["t-resto-warm", "t-resto-dark", "dl-feane", "dl-Tiya", "dl-Restaurantly", "dl-Dewi", "dl-Hilux", "ThemeWagon-SpiceHaven"]
   },
   {
     code: "medical",
@@ -92,7 +92,7 @@ ASBA.CATEGORIES = [
     defaultPages: 5,
     pagesLabel: "추가 페이지",
     icon: "🏥",
-    templates: ["dl-MediLab", "dl-Medinova", "dl-Clinic", "dl-Mentor", "ThemeWagon-PrimeDental", "ThemeWagon-PrimeDental2", "ThemeWagon-PrimeDental7"]
+    templates: ["dl-MediLab", "dl-Medinova", "dl-Clinic", "dl-Mentor", "ThemeWagon-PrimeDental"]
   },
   {
     code: "agency",
@@ -103,7 +103,7 @@ ASBA.CATEGORIES = [
     defaultPages: 4,
     pagesLabel: "추가 페이지",
     icon: "🎨",
-    templates: ["dl-Agency", "dl-Presento", "dl-Selecao", "dl-KnightOne", "dl-Poseify", "dl-Flat", "SB-Agency", "SB-Creative", "Bootstrap-Templates-Agency", "Bootstrap-Templates-Creative", "SB-Agency2", "SB-Creative2", "StartBootstrap-Agency", "StartBootstrap-Creative"]
+    templates: ["dl-Agency", "dl-Presento", "dl-Selecao", "dl-KnightOne", "dl-Poseify", "dl-Flat", "SB-Agency", "SB-Creative2"]
   },
   {
     code: "education",
@@ -114,7 +114,7 @@ ASBA.CATEGORIES = [
     defaultPages: 4,
     pagesLabel: "추가 페이지",
     icon: "📚",
-    templates: ["dl-Purdue", "dl-Mentor", "SB-OnePage2"]
+    templates: ["dl-Purdue", "dl-Mentor"]
   },
   {
     code: "realestate",
@@ -125,7 +125,7 @@ ASBA.CATEGORIES = [
     defaultPages: 5,
     pagesLabel: "추가 페이지",
     icon: "🏠",
-    templates: ["dl-Hilux", "dl-BizLand", "ThemeWagon-TraveLand", "ThemeWagon-TraveLand2", "ThemeWagon-TraveLand7"]
+    templates: ["dl-Hilux", "dl-BizLand", "ThemeWagon-TraveLand"]
   }
 ];
 
@@ -207,7 +207,6 @@ ASBA.TEMPLATES = {
   "SB-Agency":          { name: "SB Agency",       tone: "에이전시·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Freelancer":      { name: "SB Freelancer",   tone: "프리랜서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Resume":          { name: "SB Resume",       tone: "이력서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-Creative":        { name: "SB Creative",     tone: "크리에이티브·에이전시 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-OnePage":         { name: "SB OnePage",      tone: "원페이지·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-NewAge":          { name: "SB NewAge",       tone: "앱 랜딩·모바일 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-ComingSoon":      { name: "SB ComingSoon",   tone: "런칭·대기 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
@@ -227,51 +226,19 @@ ASBA.TEMPLATES = {
   "ThemeWagon-SparkAdmin": { name: "Spark Admin",  tone: "대시보드·관리자 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
   "ThemeWagon-ShadcnAdmin": { name: "Shadcn Admin",tone: "대시보드·관리자 (Tailwind)", source: "downloaded", framework: "tailwind" },
   "ThemeWagon-Orbit":   { name: "Orbit",          tone: "대시보드·관리자 (React)", source: "downloaded", framework: "react" },
-  "Bootstrap-Templates-Agency": { name: "Bootstrap Agency", tone: "에이전시·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "Bootstrap-Templates-Bare": { name: "Bootstrap Bare", tone: "미니멀·기본 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "Bootstrap-Templates-ComingSoon": { name: "Bootstrap ComingSoon", tone: "런칭·대기 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "Bootstrap-Templates-Creative": { name: "Bootstrap Creative", tone: "크리에이티브·에이전시 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "Bootstrap-Templates-Freelancer": { name: "Bootstrap Freelancer", tone: "프리랜서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "Bootstrap-Templates-NewAge": { name: "Bootstrap NewAge", tone: "앱 랜딩·모바일 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "Bootstrap-Templates-OnePage": { name: "Bootstrap OnePage", tone: "원페이지·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "Bootstrap-Templates-Resume": { name: "Bootstrap Resume", tone: "이력서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "Creative-Tim-Argon2": { name: "Argon Design 2", tone: "대시보드·UIKIT (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "Creative-Tim-LightBootstrap2": { name: "Light Bootstrap 2", tone: "대시보드·경량 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "Creative-Tim-Now-ui2": { name: "Now UI Kit 2", tone: "UIKIT·컴포넌트 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "Creative-Tim-Paper2": { name: "Paper Dashboard 2", tone: "대시보드·관리자 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "ThemeWagon-Brivon2": { name: "Brivon 2", tone: "사진·포트폴리오 (HTML5)", source: "downloaded", framework: "html5" },
-  "ThemeWagon-PrimeDental2": { name: "PrimeDental 2", tone: "의료·치과 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
-  "ThemeWagon-SpiceHaven2": { name: "SpiceHaven 2", tone: "레스토랑·카페 (HTML5)", source: "downloaded", framework: "html5" },
-  "ThemeWagon-TraveLand2": { name: "TraveLand 2", tone: "여행·관광 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
-  "ThemeWagon-SparkAdmin2": { name: "Spark Admin 2", tone: "대시보드·관리자 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
   "SB-3ColPortfolio": { name: "3 Column Portfolio", tone: "포트폴리오·갤러리 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-Agency2": { name: "Agency 2", tone: "에이전시·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Blog-Clean": { name: "Blog Clean", tone: "블로그·포스트 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Blog-Home": { name: "Blog Home", tone: "블로그·홈 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Creative2": { name: "Creative 2", tone: "크리에이티브·에이전시 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-Freelancer2": { name: "Freelancer 2", tone: "프리랜서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-FullWidthPics": { name: "Full Width Pics", tone: "풀 WIDTH 이미지·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Grayscale": { name: "Grayscale", tone: "그레이스케일·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-HeroicFeatures2": { name: "Heroic Features 2", tone: "히어로·기능 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Landing": { name: "Landing", tone: "랜딩·원페이지 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-ModernBusiness": { name: "Modern Business", tone: "기업·비즈니스 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-NewAge2": { name: "New Age 2", tone: "앱 랜딩·모바일 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-OnePage2": { name: "One Page 2", tone: "원페이지·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-PortfolioItem": { name: "Portfolio Item", tone: "포트폴리오·아이템 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-Resume2": { name: "Resume 2", tone: "이력서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-ScrollingNav2": { name: "Scrolling Nav 2", tone: "스크롤링·네비게이션 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-ShopHomepage2": { name: "Shop Homepage 2", tone: "쇼핑·홈페이지 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-ShopItem": { name: "Shop Item", tone: "쇼핑·상품 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-SimpleSidebar": { name: "Simple Sidebar", tone: "사이드바·메뉴 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-SmallBusiness": { name: "Small Business", tone: "소기업·비즈니스 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-StylishPortfolio": { name: "Stylish Portfolio", tone: "포트폴리오·스타일리시 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "StartBootstrap-Agency": { name: "SB Agency", tone: "에이전시·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "StartBootstrap-Creative": { name: "SB Creative", tone: "크리에이티브·에이전시 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "StartBootstrap-Freelancer": { name: "SB Freelancer", tone: "프리랜서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "StartBootstrap-NewAge": { name: "SB NewAge", tone: "앱 랜딩·모바일 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "StartBootstrap-Resume": { name: "SB Resume", tone: "이력서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "ThemeWagon-PrimeDental7": { name: "PrimeDental 7", tone: "의료·치과 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
-  "ThemeWagon-TraveLand7": { name: "TraveLand 7", tone: "여행·관광 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" }
 };
 
 /* 카테고리별 동적 폼 필드 (의뢰 폼에서 렌더링)
