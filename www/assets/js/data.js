@@ -26,7 +26,7 @@ ASBA.CATEGORIES = [
     defaultPages: 4,
     pagesLabel: "추가 페이지",
     icon: "🎨",
-    templates: ["t-folio-grid", "t-folio-editorial", "dl-meyawo", "dl-Flat", "dl-Poseify", "dl-Kelly", "dl-iPortfolio", "dl-PhotoFolio", "SB-Freelancer", "SB-Resume", "ThemeWagon-Brivon", "SB-3ColPortfolio", "SB-PortfolioItem", "SB-Creative2"]
+    templates: ["t-folio-grid", "t-folio-editorial", "dl-meyawo", "dl-Flat", "dl-Poseify", "dl-Kelly", "dl-iPortfolio", "dl-PhotoFolio", "SB-Freelancer", "SB-Resume", "ThemeWagon-Brivon", "SB-3ColPortfolio", "SB-Creative2"]
   },
   {
     code: "business",
@@ -59,7 +59,7 @@ ASBA.CATEGORIES = [
     defaultPages: 5,
     pagesLabel: "추가 상품/페이지",
     icon: "🛒",
-    templates: ["t-shop-clean", "t-shop-vivid", "dl-organic", "dl-Plasery", "dl-Kaira", "dl-Furnish", "SB-Shop Homepage", "SB-ShopItem"]
+    templates: ["t-shop-clean", "t-shop-vivid", "dl-organic", "dl-Plasery", "dl-Kaira", "dl-Furnish", "SB-Shop Homepage"]
   },
   {
     code: "blog",
@@ -212,7 +212,6 @@ ASBA.TEMPLATES = {
   "SB-ComingSoon":      { name: "SB ComingSoon",   tone: "런칭·대기 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Clean":           { name: "SB Clean",        tone: "블로그·미디어 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Shop Homepage":   { name: "SB Shop",        tone: "쇼핑몰·이커머스 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-Simple Sidebar":  { name: "SB Sidebar",     tone: "사이드바·대시보드 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Scrolling Nav":   { name: "SB Scrolling",   tone: "스크롤링·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Heroic Features": { name: "SB Heroic",      tone: "히어로·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "Creative-Tim-Argon": { name: "Argon Design",   tone: "대시보드·UIKIT (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
@@ -224,8 +223,6 @@ ASBA.TEMPLATES = {
   "ThemeWagon-SpiceHaven": { name: "SpiceHaven",  tone: "레스토랑·카페 (HTML5)", source: "downloaded", framework: "html5" },
   "ThemeWagon-TraveLand": { name: "TraveLand",    tone: "여행·관광 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
   "ThemeWagon-SparkAdmin": { name: "Spark Admin",  tone: "대시보드·관리자 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
-  "ThemeWagon-ShadcnAdmin": { name: "Shadcn Admin",tone: "대시보드·관리자 (Tailwind)", source: "downloaded", framework: "tailwind" },
-  "ThemeWagon-Orbit":   { name: "Orbit",          tone: "대시보드·관리자 (React)", source: "downloaded", framework: "react" },
   "Bootstrap-Templates-Bare": { name: "Bootstrap Bare", tone: "미니멀·기본 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-3ColPortfolio": { name: "3 Column Portfolio", tone: "포트폴리오·갤러리 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Blog-Clean": { name: "Blog Clean", tone: "블로그·포스트 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
@@ -235,8 +232,6 @@ ASBA.TEMPLATES = {
   "SB-Grayscale": { name: "Grayscale", tone: "그레이스케일·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Landing": { name: "Landing", tone: "랜딩·원페이지 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-ModernBusiness": { name: "Modern Business", tone: "기업·비즈니스 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-PortfolioItem": { name: "Portfolio Item", tone: "포트폴리오·아이템 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-ShopItem": { name: "Shop Item", tone: "쇼핑·상품 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-SmallBusiness": { name: "Small Business", tone: "소기업·비즈니스 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-StylishPortfolio": { name: "Stylish Portfolio", tone: "포트폴리오·스타일리시 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
 };
