@@ -1,0 +1,18 @@
+﻿{
+    "tone":  "포트폴리오 · 원페이지 · 모던",
+    "id":  "meyawo",
+    "workZip":  "./meyawo/work.zip",
+    "category":  "portfolio",
+    "tags":  [
+                 "portfolio",
+                 "one-page",
+                 "bootstrap4"
+             ],
+    "name":  "Meyawo",
+    "sourceUrl":  "https://themewagon.com/themes/meyawo/",
+    "pages":  [
+                  "index"
+              ],
+    "license":  "MIT",
+    "previewUrl":  "./meyawo/index.html"
+}

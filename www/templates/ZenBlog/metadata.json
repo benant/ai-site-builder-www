@@ -1,0 +1,18 @@
+﻿{
+    "tone":  "블로그 · 매거진 · 클린",
+    "id":  "ZenBlog",
+    "workZip":  "./ZenBlog/work.zip",
+    "category":  "blog",
+    "tags":  [
+                 "blog",
+                 "magazine",
+                 "bootstrap5"
+             ],
+    "name":  "ZenBlog",
+    "sourceUrl":  "https://themewagon.com/themes/ZenBlog/",
+    "pages":  [
+                  "index"
+              ],
+    "license":  "MIT",
+    "previewUrl":  "./ZenBlog/index.html"
+}

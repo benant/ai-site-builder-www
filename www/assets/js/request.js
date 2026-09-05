@@ -18,6 +18,12 @@
     autoTemplate: true
   };
 
+  /* ---------- 서버에서 다운로드 템플릿 로드 ---------- */
+  ASBA.fetchServerTemplates().then(function () {
+    // 템플릿 로드 후 현재 선택된 카테고리가 있으면 다시 렌더
+    if (state.category) renderTemplates();
+  });
+
   /* ---------- Step 1: GitHub username 간단 검증 ---------- */
   var ghInput = $("github-username");
   var ghCheck = $("gh-check");
@@ -69,27 +75,83 @@
       return;
     }
     autoChk.disabled = false;
+
+    // 다운로드 템플릿과 AI 템플릿 분리
+    var downloadedTpls = [];
+    var aiTpls = [];
     cat.templates.forEach(function (tid) {
       var meta = ASBA.TEMPLATES[tid] || { name: tid, tone: "" };
-      var label = document.createElement("label");
-      label.className = "radio-card" + (state.autoTemplate ? " disabled" : "");
-      label.innerHTML =
-        "<input type='radio' name='template' value='" + tid + "' " + (state.autoTemplate ? "disabled" : "") + " />" +
-        "<span class='rc-icon'>🧩</span><b>" + meta.name + "</b><small>" + meta.tone + "</small>";
-      tplWrap.appendChild(label);
+      if (meta.source === "downloaded") {
+        downloadedTpls.push({ id: tid, meta: meta });
+      } else {
+        aiTpls.push({ id: tid, meta: meta });
+      }
     });
+
+    // 다운로드 템플릿 표시 (더 크고 눈에 띄게)
+    if (downloadedTpls.length > 0) {
+      var sectionLabel = document.createElement("div");
+      sectionLabel.className = "tpl-section-label";
+      sectionLabel.innerHTML = "📁 실제 템플릿 <span class='tpl-section-badge'>다운로드 완료</span>";
+      tplWrap.appendChild(sectionLabel);
+
+      downloadedTpls.forEach(function (item) {
+        var label = document.createElement("label");
+        label.className = "radio-card downloaded" + (state.autoTemplate ? " disabled" : "");
+
+        // 썸네일 + 미리보기 URL (로컬)
+        var tplSlug = item.id.replace("dl-", "");
+        var thumbUrl = "./assets/img/templates/" + tplSlug + ".png";
+        var previewUrl = "./templates/" + tplSlug + "/index.html";
+
+        var html = "<input type='radio' name='template' value='" + item.id + "' " + (state.autoTemplate ? "disabled" : "") + " />" +
+          "<div class='rc-thumb-wrap'>" +
+            "<img class='rc-thumb-img' src='" + thumbUrl + "' alt='" + item.meta.name + "' loading='lazy' onerror=\"this.style.display='none'\" />" +
+            "<div class='rc-thumb-overlay'>" +
+              "<a href='" + previewUrl + "' target='_blank' rel='noopener' class='rc-preview-btn' onclick='event.preventDefault(); event.stopPropagation(); window.open(this.href)'>미리보기 ↗</a>" +
+            "</div>" +
+          "</div>" +
+          "<div class='rc-info'>" +
+            "<b>" + item.meta.name + "</b>" +
+            "<span class='rc-badge'>실제 템플릿</span>" +
+            "<small>" + item.meta.tone + "</small>" +
+          "</div>";
+        label.innerHTML = html;
+        tplWrap.appendChild(label);
+      });
+    }
+
+    // AI 템플릿 표시
+    if (aiTpls.length > 0) {
+      var aiLabel = document.createElement("div");
+      aiLabel.className = "tpl-section-label";
+      aiLabel.innerHTML = "🤖 AI 추천 스타일";
+      tplWrap.appendChild(aiLabel);
+
+      aiTpls.forEach(function (item) {
+        var label = document.createElement("label");
+        label.className = "radio-card" + (state.autoTemplate ? " disabled" : "");
+        label.innerHTML =
+          "<input type='radio' name='template' value='" + item.id + "' " + (state.autoTemplate ? "disabled" : "") + " />" +
+          "<span class='rc-icon'>🧩</span>" +
+          "<b>" + item.meta.name + "</b>" +
+          "<small>" + item.meta.tone + "</small>";
+        tplWrap.appendChild(label);
+      });
+    }
   }
   tplWrap.addEventListener("change", function (e) {
     if (!state.autoTemplate && e.target.name === "template") {
-      state.template = e.target.value;
+      state.template = e.target.value || null;
       Array.prototype.forEach.call(tplWrap.children, function (el) {
-        el.classList.toggle("selected", el.querySelector("input").checked);
+        var input = el.querySelector("input[name='template']");
+        if (input) el.classList.toggle("selected", input.checked);
       });
     }
   });
   autoChk.addEventListener("change", function () {
     state.autoTemplate = autoChk.checked;
-    if (!state.autoTemplate) state.template = null;
+    if (state.autoTemplate) state.template = null;
     renderTemplates();
   });
 

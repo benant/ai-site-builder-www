@@ -1,0 +1,13 @@
+{
+  "id": "enno",
+  "name": "eNno",
+  "tone": "비즈니스 · 원페이지 · 클린",
+  "category": "landing",
+  "tags": ["business", "corporate", "one-page", "bootstrap5"],
+  "license": "MIT",
+  "sourceUrl": "https://themewagon.com/themes/enno/",
+  "previewUrl": "./enno/index.html",
+  "workZip": "./enno/work.zip",
+  "pages": ["index", "portfolio-details", "service-details", "starter-page"],
+  "colors": { "primary": "#4154f1", "background": "#ffffff", "text": "#444444" }
+}

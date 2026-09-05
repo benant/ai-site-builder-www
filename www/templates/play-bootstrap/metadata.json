@@ -1,0 +1,13 @@
+{
+  "id": "play-bootstrap",
+  "name": "Play Bootstrap",
+  "tone": "SaaS · 스타트업 · 랜딩",
+  "category": "landing",
+  "tags": ["saas", "startup", "landing", "bootstrap5"],
+  "license": "MIT",
+  "sourceUrl": "https://themewagon.com/themes/play-bootstrap/",
+  "previewUrl": "./play-bootstrap/index.html",
+  "workZip": "./play-bootstrap/work.zip",
+  "pages": ["index", "about", "blog", "blog-details", "contact", "login", "pricing", "404"],
+  "colors": { "primary": "#6366f1", "background": "#ffffff", "text": "#1a1a2e" }
+}

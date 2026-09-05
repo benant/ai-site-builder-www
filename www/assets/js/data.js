@@ -15,7 +15,7 @@ ASBA.CATEGORIES = [
     defaultPages: 1,
     pagesLabel: "추가 섹션/서브페이지",
     icon: "🚀",
-    templates: ["t-landing-bold", "t-landing-minimal", "t-landing-gradient"]
+    templates: ["t-landing-bold", "t-landing-minimal", "t-landing-gradient", "dl-play-bootstrap", "dl-enno", "dl-Active", "dl-Bliss", "dl-FlexStart", "dl-OnePage", "dl-iLanding", "dl-HeroBiz", "dl-AppVila", "dl-NexusAI", "dl-SaaSintro", "dl-Impact", "SB-OnePage", "SB-NewAge", "SB-ComingSoon", "SB-Scrolling Nav", "SB-Heroic Features", "Bootstrap-Templates-OnePage", "Bootstrap-Templates-NewAge", "Bootstrap-Templates-ComingSoon", "SB-Landing", "SB-OnePage2", "SB-NewAge2", "SB-HeroicFeatures2", "SB-ScrollingNav2", "SB-Grayscale", "SB-StylishPortfolio"]
   },
   {
     code: "portfolio",
@@ -26,7 +26,7 @@ ASBA.CATEGORIES = [
     defaultPages: 4,
     pagesLabel: "추가 페이지",
     icon: "🎨",
-    templates: ["t-folio-grid", "t-folio-editorial"]
+    templates: ["t-folio-grid", "t-folio-editorial", "dl-meyawo", "dl-Flat", "dl-Poseify", "dl-Kelly", "dl-iPortfolio", "dl-PhotoFolio", "SB-Freelancer", "SB-Resume", "ThemeWagon-Brivon", "Bootstrap-Templates-Freelancer", "Bootstrap-Templates-Resume", "SB-3ColPortfolio", "SB-PortfolioItem", "SB-Resume2", "SB-Creative2", "SB-Freelancer2", "StartBootstrap-Freelancer", "StartBootstrap-Resume"]
   },
   {
     code: "business",
@@ -37,7 +37,18 @@ ASBA.CATEGORIES = [
     defaultPages: 4,
     pagesLabel: "추가 페이지",
     icon: "🏢",
-    templates: ["t-biz-classic", "t-biz-modern"]
+    templates: ["t-biz-classic", "t-biz-modern", "dl-arsha", "dl-Company", "dl-Gp", "dl-Sarab", "dl-Business", "dl-Salone", "dl-BizLand", "dl-Impact", "SB-Agency", "SB-Creative", "Bootstrap-Templates-Agency", "Bootstrap-Templates-Creative", "SB-Agency2", "SB-ModernBusiness", "SB-SmallBusiness", "StartBootstrap-Agency", "StartBootstrap-Creative"]
+  },
+  {
+    code: "saas",
+    name: "SAAS / 스타트업",
+    desc: "SaaS 서비스, 구독 플랜, 데모 신청에 최적화",
+    basePrice: 350000,
+    perPagePrice: 90000,
+    defaultPages: 4,
+    pagesLabel: "추가 페이지",
+    icon: "💻",
+    templates: ["dl-landmark", "dl-nexora", "dl-FlexStart", "dl-NexusAI", "dl-SaaSintro"]
   },
   {
     code: "shop",
@@ -48,7 +59,7 @@ ASBA.CATEGORIES = [
     defaultPages: 5,
     pagesLabel: "추가 상품/페이지",
     icon: "🛒",
-    templates: ["t-shop-clean", "t-shop-vivid"]
+    templates: ["t-shop-clean", "t-shop-vivid", "dl-organic", "dl-Plasery", "dl-Kaira", "dl-Furnish", "SB-Shop Homepage", "SB-ShopHomepage2", "SB-ShopItem"]
   },
   {
     code: "blog",
@@ -59,7 +70,7 @@ ASBA.CATEGORIES = [
     defaultPages: 4,
     pagesLabel: "추가 페이지",
     icon: "✍️",
-    templates: ["t-blog-serif", "t-blog-magazine"]
+    templates: ["t-blog-serif", "t-blog-magazine", "dl-ZenBlog", "dl-Sailor", "dl-Blogy", "SB-Clean", "SB-Blog-Clean", "SB-Blog-Home"]
   },
   {
     code: "restaurant",
@@ -70,7 +81,51 @@ ASBA.CATEGORIES = [
     defaultPages: 4,
     pagesLabel: "추가 페이지",
     icon: "☕",
-    templates: ["t-resto-warm", "t-resto-dark"]
+    templates: ["t-resto-warm", "t-resto-dark", "dl-feane", "dl-Tiya", "dl-Restaurantly", "dl-Dewi", "dl-Hilux", "ThemeWagon-SpiceHaven", "ThemeWagon-SpiceHaven2"]
+  },
+  {
+    code: "medical",
+    name: "의료 / 병원",
+    desc: "의료 서비스, 진료 안내, 예약에 최적화",
+    basePrice: 350000,
+    perPagePrice: 90000,
+    defaultPages: 5,
+    pagesLabel: "추가 페이지",
+    icon: "🏥",
+    templates: ["dl-MediLab", "dl-Medinova", "dl-Clinic", "dl-Mentor", "ThemeWagon-PrimeDental", "ThemeWagon-PrimeDental2", "ThemeWagon-PrimeDental7"]
+  },
+  {
+    code: "agency",
+    name: "에이전시 / 크리에이티브",
+    desc: "에이전시 서비스와 포트폴리오 소개",
+    basePrice: 300000,
+    perPagePrice: 80000,
+    defaultPages: 4,
+    pagesLabel: "추가 페이지",
+    icon: "🎨",
+    templates: ["dl-Agency", "dl-Presento", "dl-Selecao", "dl-KnightOne", "dl-Poseify", "dl-Flat", "SB-Agency", "SB-Creative", "Bootstrap-Templates-Agency", "Bootstrap-Templates-Creative", "SB-Agency2", "SB-Creative2", "StartBootstrap-Agency", "StartBootstrap-Creative"]
+  },
+  {
+    code: "education",
+    name: "교육 / 학원",
+    desc: "교육 서비스, 강의 안내, 수강 신청에 최적화",
+    basePrice: 300000,
+    perPagePrice: 80000,
+    defaultPages: 4,
+    pagesLabel: "추가 페이지",
+    icon: "📚",
+    templates: ["dl-Purdue", "dl-Mentor", "SB-OnePage2"]
+  },
+  {
+    code: "realestate",
+    name: "부동산",
+    desc: "부동산 매물 안내, 중개 서비스에 최적화",
+    basePrice: 350000,
+    perPagePrice: 90000,
+    defaultPages: 5,
+    pagesLabel: "추가 페이지",
+    icon: "🏠",
+    templates: ["dl-Hilux", "dl-BizLand", "ThemeWagon-TraveLand", "ThemeWagon-TraveLand2", "ThemeWagon-TraveLand7"]
   }
 ];
 
@@ -96,7 +151,129 @@ ASBA.TEMPLATES = {
   "t-blog-serif":       { name: "Serif Blog",     tone: "읽기 좋은 세리프" },
   "t-blog-magazine":    { name: "Magazine Blog",  tone: "매거진 레이아웃" },
   "t-resto-warm":       { name: "Warm Resto",     tone: "따뜻한 식욕 톤" },
-  "t-resto-dark":       { name: "Dark Resto",     tone: "세련된 다크 톤" }
+  "t-resto-dark":       { name: "Dark Resto",     tone: "세련된 다크 톤" },
+  /* 다운로드한 실제 템플릿 (서버에서 제공) */
+  "dl-play-bootstrap":  { name: "Play Bootstrap",  tone: "SaaS/스타트업 랜딩 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-enno":            { name: "eNno",            tone: "비즈니스 원페이지 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-landmark":        { name: "Landmark",        tone: "SAAS 랜딩 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-organic":         { name: "Organic",         tone: "이커머스 식료품 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-ZenBlog":         { name: "ZenBlog",         tone: "블로그 · 매거진 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-meyawo":          { name: "Meyawo",          tone: "포트폴리오 원페이지 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "dl-feane":           { name: "Feane",           tone: "식당 · 카페 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "dl-arsha":           { name: "Arsha",           tone: "기업 · 비즈니스 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-nexora":          { name: "Nexora",          tone: "SAAS 스타트업 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Active":          { name: "Active",          tone: "비즈니스·기업 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Bliss":           { name: "Bliss",           tone: "포트폴리오·창작 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Chefer":          { name: "Chefer",          tone: "레스토랑·카페 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Company":         { name: "Company",         tone: "기업·비즈니스 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-FlexStart":       { name: "FlexStart",       tone: "스타트업·SAAS (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Gp":              { name: "Gp",              tone: "기업·서비스 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Sarab":           { name: "Sarab",           tone: "기업·포트폴리오 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Kelly":           { name: "Kelly",           tone: "포트폴리오 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Weldork":         { name: "Weldork",         tone: "포트폴리오·창작 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Plasery":         { name: "Plasery",         tone: "이커머스·쇼핑 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Sailor":          { name: "Sailor",          tone: "블로그·미디어 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Tiya":            { name: "Tiya",            tone: "레스토랑·카페 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-MediLab":         { name: "MediLab",         tone: "의료·병원 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Medinova":        { name: "Medinova",        tone: "의료·병원 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Clinic":          { name: "Clinic",          tone: "의료·클리닉 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Agency":          { name: "Agency",          tone: "에이전시·크리에이티브 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Presento":        { name: "Presento",        tone: "에이전시·서비스 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Selecao":         { name: "Selecao",         tone: "포트폴리오·창작 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-KnightOne":       { name: "KnightOne",       tone: "포트폴리오·작가 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Poseify":         { name: "Poseify",         tone: "포트폴리오·작가 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Flat":            { name: "Flat",            tone: "포트폴리오·minimal (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-furni":           { name: "Furni",           tone: "가구·쇼핑 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Studiova":        { name: "Studiova",        tone: "스튜디오·에이전시 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-iPortfolio":      { name: "iPortfolio",      tone: "포트폴리오 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Dewi":            { name: "Dewi",            tone: "레스토랑·카페 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-HeroBiz":         { name: "HeroBiz",         tone: "기업·비즈니스 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-iLanding":        { name: "iLanding",        tone: "랜딩·스타트업 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Mentor":          { name: "Mentor",          tone: "의료·교육 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-PhotoFolio":      { name: "PhotoFolio",      tone: "포트폴리오·사진 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Restaurantly":    { name: "Restaurantly",    tone: "레스토랑·카페 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-AppVila":         { name: "AppVila",         tone: "앱 랜딩·모바일 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-BizLand":         { name: "BizLand",         tone: "기업·비즈니스 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Blogy":           { name: "Blogy",           tone: "블로그·미디어 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Business":        { name: "Business",        tone: "기업·비즈니스 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Furnish":         { name: "Furnish",         tone: "가구·쇼핑 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Hilux":           { name: "Hilux",           tone: "부동산·매물 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Impact":          { name: "Impact",          tone: "기업·비즈니스 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Kaira":           { name: "Kaira",           tone: "이커머스·패션 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-NexusAI":         { name: "NexusAI",         tone: "SAAS·AI (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Purdue":          { name: "Purdue",          tone: "교육·학원 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-SaaSintro":       { name: "SaaSintro",       tone: "SAAS·런칭 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "dl-Salone":          { name: "Salone",          tone: "기업·비즈니스 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "SB-Agency":          { name: "SB Agency",       tone: "에이전시·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Freelancer":      { name: "SB Freelancer",   tone: "프리랜서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Resume":          { name: "SB Resume",       tone: "이력서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Creative":        { name: "SB Creative",     tone: "크리에이티브·에이전시 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-OnePage":         { name: "SB OnePage",      tone: "원페이지·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-NewAge":          { name: "SB NewAge",       tone: "앱 랜딩·모바일 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-ComingSoon":      { name: "SB ComingSoon",   tone: "런칭·대기 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Bare":            { name: "SB Bare",         tone: "미니멀·기본 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Clean":           { name: "SB Clean",        tone: "블로그·미디어 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Shop Homepage":   { name: "SB Shop",        tone: "쇼핑몰·이커머스 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Simple Sidebar":  { name: "SB Sidebar",     tone: "사이드바·대시보드 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Scrolling Nav":   { name: "SB Scrolling",   tone: "스크롤링·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Heroic Features": { name: "SB Heroic",      tone: "히어로·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Creative-Tim-Argon": { name: "Argon Design",   tone: "대시보드·UIKIT (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Creative-Tim-Now-ui":{ name: "Now UI Kit",     tone: "UIKIT·컴포넌트 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Creative-Tim-Paper": { name: "Paper Dashboard",tone: "대시보드·관리자 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Creative-Tim-LightBootstrap": { name: "Light Bootstrap", tone: "대시보드·경량 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "ThemeWagon-Brivon":  { name: "Brivon",         tone: "사진·포트폴리오 (HTML5)", source: "downloaded", framework: "html5" },
+  "ThemeWagon-PrimeDental": { name: "PrimeDental", tone: "의료·치과 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "ThemeWagon-SpiceHaven": { name: "SpiceHaven",  tone: "레스토랑·카페 (HTML5)", source: "downloaded", framework: "html5" },
+  "ThemeWagon-TraveLand": { name: "TraveLand",    tone: "여행·관광 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "ThemeWagon-SparkAdmin": { name: "Spark Admin",  tone: "대시보드·관리자 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "ThemeWagon-ShadcnAdmin": { name: "Shadcn Admin",tone: "대시보드·관리자 (Tailwind)", source: "downloaded", framework: "tailwind" },
+  "ThemeWagon-Orbit":   { name: "Orbit",          tone: "대시보드·관리자 (React)", source: "downloaded", framework: "react" },
+  "Bootstrap-Templates-Agency": { name: "Bootstrap Agency", tone: "에이전시·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Bootstrap-Templates-Bare": { name: "Bootstrap Bare", tone: "미니멀·기본 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Bootstrap-Templates-ComingSoon": { name: "Bootstrap ComingSoon", tone: "런칭·대기 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Bootstrap-Templates-Creative": { name: "Bootstrap Creative", tone: "크리에이티브·에이전시 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Bootstrap-Templates-Freelancer": { name: "Bootstrap Freelancer", tone: "프리랜서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Bootstrap-Templates-NewAge": { name: "Bootstrap NewAge", tone: "앱 랜딩·모바일 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Bootstrap-Templates-OnePage": { name: "Bootstrap OnePage", tone: "원페이지·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Bootstrap-Templates-Resume": { name: "Bootstrap Resume", tone: "이력서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Creative-Tim-Argon2": { name: "Argon Design 2", tone: "대시보드·UIKIT (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Creative-Tim-LightBootstrap2": { name: "Light Bootstrap 2", tone: "대시보드·경량 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Creative-Tim-Now-ui2": { name: "Now UI Kit 2", tone: "UIKIT·컴포넌트 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "Creative-Tim-Paper2": { name: "Paper Dashboard 2", tone: "대시보드·관리자 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "ThemeWagon-Brivon2": { name: "Brivon 2", tone: "사진·포트폴리오 (HTML5)", source: "downloaded", framework: "html5" },
+  "ThemeWagon-PrimeDental2": { name: "PrimeDental 2", tone: "의료·치과 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "ThemeWagon-SpiceHaven2": { name: "SpiceHaven 2", tone: "레스토랑·카페 (HTML5)", source: "downloaded", framework: "html5" },
+  "ThemeWagon-TraveLand2": { name: "TraveLand 2", tone: "여행·관광 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "ThemeWagon-SparkAdmin2": { name: "Spark Admin 2", tone: "대시보드·관리자 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "SB-3ColPortfolio": { name: "3 Column Portfolio", tone: "포트폴리오·갤러리 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Agency2": { name: "Agency 2", tone: "에이전시·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Bare2": { name: "Bare 2", tone: "미니멀·기본 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Blog-Clean": { name: "Blog Clean", tone: "블로그·포스트 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Blog-Home": { name: "Blog Home", tone: "블로그·홈 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Creative2": { name: "Creative 2", tone: "크리에이티브·에이전시 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Freelancer2": { name: "Freelancer 2", tone: "프리랜서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-FullWidthPics": { name: "Full Width Pics", tone: "풀 WIDTH 이미지·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Grayscale": { name: "Grayscale", tone: "그레이스케일·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-HeroicFeatures2": { name: "Heroic Features 2", tone: "히어로·기능 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Landing": { name: "Landing", tone: "랜딩·원페이지 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-ModernBusiness": { name: "Modern Business", tone: "기업·비즈니스 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-NewAge2": { name: "New Age 2", tone: "앱 랜딩·모바일 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-OnePage2": { name: "One Page 2", tone: "원페이지·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-PortfolioItem": { name: "Portfolio Item", tone: "포트폴리오·아이템 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-Resume2": { name: "Resume 2", tone: "이력서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-ScrollingNav2": { name: "Scrolling Nav 2", tone: "스크롤링·네비게이션 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-ShopHomepage2": { name: "Shop Homepage 2", tone: "쇼핑·홈페이지 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-ShopItem": { name: "Shop Item", tone: "쇼핑·상품 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-SimpleSidebar": { name: "Simple Sidebar", tone: "사이드바·메뉴 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-SmallBusiness": { name: "Small Business", tone: "소기업·비즈니스 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "SB-StylishPortfolio": { name: "Stylish Portfolio", tone: "포트폴리오·스타일리시 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "StartBootstrap-Agency": { name: "SB Agency", tone: "에이전시·랜딩 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "StartBootstrap-Creative": { name: "SB Creative", tone: "크리에이티브·에이전시 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "StartBootstrap-Freelancer": { name: "SB Freelancer", tone: "프리랜서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "StartBootstrap-NewAge": { name: "SB NewAge", tone: "앱 랜딩·모바일 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "StartBootstrap-Resume": { name: "SB Resume", tone: "이력서·포트폴리오 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
+  "ThemeWagon-PrimeDental7": { name: "PrimeDental 7", tone: "의료·치과 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
+  "ThemeWagon-TraveLand7": { name: "TraveLand 7", tone: "여행·관광 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" }
 };
 
 /* 카테고리별 동적 폼 필드 (의뢰 폼에서 렌더링)
@@ -117,6 +294,12 @@ ASBA.FORM_SCHEMAS = {
     { key: "company_intro",  label: "회사 소개", type: "textarea", required: true },
     { key: "services",       label: "서비스/제품 목록", type: "textarea", required: true, placeholder: "줄바꿈으로 구분" },
     { key: "history",        label: "연혁 (선택)", type: "textarea" }
+  ],
+  saas: [
+    { key: "product",        label: "서비스/제품명", type: "text", required: true },
+    { key: "features",       label: "주요 기능 3가지", type: "textarea", required: true, placeholder: "기능당 한 줄씩" },
+    { key: "pricing",        label: "가격 플랜 (선택)", type: "textarea", placeholder: "플랜명 - 가격 형식" },
+    { key: "demo_url",       label: "데모 URL (선택)", type: "url" }
   ],
   shop: [
     { key: "products",       label: "판매 상품 목록", type: "textarea", required: true, placeholder: "상품명 - 가격 형식, 줄바꿈으로 구분" },
@@ -165,6 +348,42 @@ ASBA.calcQuote = function (categoryCode, extraPages, optionCodes) {
 };
 
 ASBA.formatKRW = function (n) { return n.toLocaleString("ko-KR") + "원"; };
+
+/* 서버에서 다운로드 템플릿 정보 가져오기 */
+ASBA.fetchServerTemplates = function () {
+  return fetch((ASBA.API_BASE || "") + "/api/templates")
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      if (data.ok && data.templates) {
+        data.templates.forEach(function (t) {
+          var id = "dl-" + t.id;
+          ASBA.TEMPLATES[id] = {
+            name: t.name,
+            tone: t.description || "",
+            source: "downloaded",
+            framework: t.framework,
+            previewUrl: t.previewUrl || "",
+            sourceUrl: t.sourceUrl || "",
+            thumbnailUrl: t.thumbnailUrl || ""
+          };
+        });
+        // 카테고리별로 다운로드 템플릿 추가
+        if (data.categories) {
+          ASBA.CATEGORIES.forEach(function (cat) {
+            var downloaded = (data.categories[cat.code] || []);
+            downloaded.forEach(function (tid) {
+              var refId = "dl-" + tid;
+              if (ASBA.TEMPLATES[refId] && cat.templates.indexOf(refId) === -1) {
+                cat.templates.push(refId);
+              }
+            });
+          });
+        }
+      }
+      return data;
+    })
+    .catch(function () { return { ok: false }; });
+};
 
 /* 의뢰 접수 API 주소 — 통합 서버 배포 후 실제 주소로 교체하세요.
  * 예: https://api.asba.example.com */

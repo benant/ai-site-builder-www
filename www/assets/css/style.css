@@ -268,8 +268,82 @@ legend .step-chip {
 .radio-card b { display: block; margin-top: 6px; font-size: 15px; }
 .radio-card small { color: var(--muted); font-size: 12.5px; }
 
-.template-list { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
-.template-list .radio-card.disabled { opacity: .45; cursor: not-allowed; }
+.template-list { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.template-list .radio-card.disabled { opacity: .65; cursor: not-allowed; }
+.template-list .radio-card.disabled:hover { border-color: var(--border); }
+
+/* 템플릿 섹션 라벨 */
+.tpl-section-label {
+  grid-column: 1 / -1;
+  font-size: 13px; font-weight: 700; color: var(--muted);
+  padding: 12px 0 4px;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; gap: 8px;
+}
+.tpl-section-badge {
+  font-size: 10px; font-weight: 600;
+  color: var(--success); background: rgba(52,211,153,.12);
+  border: 1px solid rgba(52,211,153,.3);
+  border-radius: 4px; padding: 2px 6px;
+}
+
+/* 다운로드 템플릿 카드 스타일 */
+.radio-card.downloaded {
+  position: relative; overflow: hidden; padding: 0;
+}
+.radio-card.downloaded .rc-thumb-wrap {
+  position: relative; width: 100%; height: 140px;
+  overflow: hidden; background: #0d1117;
+}
+.radio-card.downloaded .rc-thumb-img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform .2s ease;
+}
+.radio-card.downloaded:hover .rc-thumb-img {
+  transform: scale(1.05);
+}
+.radio-card.downloaded .rc-thumb-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(transparent 40%, rgba(0,0,0,.7));
+  display: flex; align-items: flex-end; justify-content: center;
+  padding-bottom: 12px; opacity: 0;
+  transition: opacity .2s ease;
+}
+.radio-card.downloaded:hover .rc-thumb-overlay {
+  opacity: 1;
+}
+.rc-preview-btn {
+  display: inline-block; padding: 6px 14px;
+  font-size: 12px; font-weight: 600; color: #fff;
+  background: var(--primary); border-radius: 6px;
+  text-decoration: none !important;
+  transition: background .15s ease;
+}
+.rc-preview-btn:hover {
+  background: var(--primary-strong);
+}
+.radio-card.downloaded .rc-info {
+  padding: 12px 14px;
+}
+.radio-card.downloaded .rc-info b {
+  display: block; font-size: 14px; margin-bottom: 4px;
+}
+.radio-card.downloaded .rc-info small {
+  display: block; color: var(--muted); font-size: 12px; margin-top: 4px;
+}
+.radio-card .rc-badge {
+  display: inline-block;
+  font-size: 10px; font-weight: 700; letter-spacing: .5px;
+  color: var(--accent); background: rgba(34,211,238,.12);
+  border: 1px solid rgba(34,211,238,.25);
+  border-radius: 4px; padding: 2px 6px;
+}
+.tpl-preview-link {
+  display: inline-block; margin-top: 4px;
+  font-size: 11px; color: var(--primary-strong);
+  text-decoration: none !important;
+}
+.tpl-preview-link:hover { text-decoration: underline !important; }
 
 .form-actions { display: flex; gap: 14px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
 .agree { display: flex; gap: 8px; align-items: flex-start; font-size: 13.5px; color: var(--muted); }

@@ -1,0 +1,19 @@
+﻿{
+    "tone":  "SAAS · 스타트업 · 모던",
+    "id":  "nexora",
+    "workZip":  "./nexora/work.zip",
+    "category":  "saas",
+    "tags":  [
+                 "saas",
+                 "startup",
+                 "landing",
+                 "bootstrap5"
+             ],
+    "name":  "Nexora",
+    "sourceUrl":  "https://themewagon.com/themes/nexora/",
+    "pages":  [
+                  "index"
+              ],
+    "license":  "MIT",
+    "previewUrl":  "./nexora/index.html"
+}

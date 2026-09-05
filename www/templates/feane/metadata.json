@@ -1,0 +1,19 @@
+﻿{
+    "tone":  "식당 · 카페 · 다크",
+    "id":  "feane",
+    "workZip":  "./feane/work.zip",
+    "category":  "restaurant",
+    "tags":  [
+                 "restaurant",
+                 "cafe",
+                 "food",
+                 "bootstrap4"
+             ],
+    "name":  "Feane",
+    "sourceUrl":  "https://themewagon.com/themes/feane/",
+    "pages":  [
+                  "index"
+              ],
+    "license":  "MIT",
+    "previewUrl":  "./feane/index.html"
+}

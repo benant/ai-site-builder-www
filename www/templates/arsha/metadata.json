@@ -1,0 +1,18 @@
+﻿{
+    "tone":  "기업 · 비즈니스 · 프로페셔널",
+    "id":  "arsha",
+    "workZip":  "./arsha/work.zip",
+    "category":  "business",
+    "tags":  [
+                 "business",
+                 "corporate",
+                 "bootstrap5"
+             ],
+    "name":  "Arsha",
+    "sourceUrl":  "https://themewagon.com/themes/arsha/",
+    "pages":  [
+                  "index"
+              ],
+    "license":  "MIT",
+    "previewUrl":  "./arsha/index.html"
+}

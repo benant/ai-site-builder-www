@@ -1,0 +1,13 @@
+{
+  "id": "landmark",
+  "name": "Landmark",
+  "tone": "SAAS · 모던 · 원페이지",
+  "category": "saas",
+  "tags": ["saas", "startup", "landing", "bootstrap5"],
+  "license": "MIT",
+  "sourceUrl": "https://themewagon.com/themes/landmark/",
+  "previewUrl": "./landmark/index.html",
+  "workZip": "./landmark/work.zip",
+  "pages": ["index"],
+  "colors": { "primary": "#6c5ce7", "background": "#ffffff", "text": "#2d3436" }
+}
