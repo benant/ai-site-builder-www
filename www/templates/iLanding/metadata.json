@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "iLanding",
-    "id":  "iLanding",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "landing",
+  "name": "iLanding",
+  "id": "iLanding",
+  "source": "themewagon"
 }

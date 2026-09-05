@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "Medinova",
-    "id":  "Medinova",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "medical",
+  "name": "Medinova",
+  "id": "Medinova",
+  "source": "themewagon"
 }

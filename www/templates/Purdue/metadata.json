@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "Purdue",
-    "id":  "Purdue",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "education",
+  "name": "Purdue",
+  "id": "Purdue",
+  "source": "github"
 }

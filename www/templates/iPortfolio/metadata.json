@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "iPortfolio",
-    "id":  "iPortfolio",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "portfolio",
+  "name": "iPortfolio",
+  "id": "iPortfolio",
+  "source": "themewagon"
 }

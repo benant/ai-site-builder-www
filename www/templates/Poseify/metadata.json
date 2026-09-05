@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "Poseify",
-    "id":  "Poseify",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "agency",
+  "name": "Poseify",
+  "id": "Poseify",
+  "source": "themewagon"
 }

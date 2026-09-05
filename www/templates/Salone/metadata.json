@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "Salone",
-    "id":  "Salone",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "business",
+  "name": "Salone",
+  "id": "Salone",
+  "source": "github"
 }

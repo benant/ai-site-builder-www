@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "business",
-    "name":  "SB-Scrolling Nav",
-    "id":  "SB-Scrolling Nav",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "landing",
+  "name": "SB-Scrolling Nav",
+  "id": "SB-Scrolling Nav",
+  "source": "github"
 }

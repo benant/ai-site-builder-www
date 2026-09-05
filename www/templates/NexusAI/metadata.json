@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "NexusAI",
-    "id":  "NexusAI",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "saas",
+  "name": "NexusAI",
+  "id": "NexusAI",
+  "source": "github"
 }

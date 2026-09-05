@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "general",
-    "name":  "SB-OnePage",
-    "id":  "SB-OnePage",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "landing",
+  "name": "SB-OnePage",
+  "id": "SB-OnePage",
+  "source": "github"
 }

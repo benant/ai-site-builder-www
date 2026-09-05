@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "Blogy",
-    "id":  "Blogy",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "blog",
+  "name": "Blogy",
+  "id": "Blogy",
+  "source": "github"
 }

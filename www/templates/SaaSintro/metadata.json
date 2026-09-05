@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "SaaSintro",
-    "id":  "SaaSintro",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "saas",
+  "name": "SaaSintro",
+  "id": "SaaSintro",
+  "source": "github"
 }

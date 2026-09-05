@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "general",
-    "name":  "SB-Heroic Features",
-    "id":  "SB-Heroic Features",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "landing",
+  "name": "SB-Heroic Features",
+  "id": "SB-Heroic Features",
+  "source": "github"
 }

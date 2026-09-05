@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "OnePage",
-    "id":  "OnePage",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "landing",
+  "name": "OnePage",
+  "id": "OnePage",
+  "source": "themewagon"
 }

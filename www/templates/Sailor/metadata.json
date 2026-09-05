@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "Sailor",
-    "id":  "Sailor",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "blog",
+  "name": "Sailor",
+  "id": "Sailor",
+  "source": "themewagon"
 }

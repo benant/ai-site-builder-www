@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "Kaira",
-    "id":  "Kaira",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "shop",
+  "name": "Kaira",
+  "id": "Kaira",
+  "source": "github"
 }

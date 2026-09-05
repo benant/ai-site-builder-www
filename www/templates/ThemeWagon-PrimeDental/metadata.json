@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "ThemeWagon-PrimeDental",
-    "id":  "ThemeWagon-PrimeDental",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "medical",
+  "name": "ThemeWagon-PrimeDental",
+  "id": "ThemeWagon-PrimeDental",
+  "source": "github"
 }

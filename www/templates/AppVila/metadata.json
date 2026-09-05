@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "AppVila",
-    "id":  "AppVila",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "landing",
+  "name": "AppVila",
+  "id": "AppVila",
+  "source": "github"
 }

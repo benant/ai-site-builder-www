@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "FlexStart",
-    "id":  "FlexStart",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "saas",
+  "name": "FlexStart",
+  "id": "FlexStart",
+  "source": "themewagon"
 }

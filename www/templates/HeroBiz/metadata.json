@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "HeroBiz",
-    "id":  "HeroBiz",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "landing",
+  "name": "HeroBiz",
+  "id": "HeroBiz",
+  "source": "themewagon"
 }

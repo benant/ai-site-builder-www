@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "Hilux",
-    "id":  "Hilux",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "realestate",
+  "name": "Hilux",
+  "id": "Hilux",
+  "source": "github"
 }

@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "saas",
-    "name":  "SB-Landing",
-    "id":  "SB-Landing",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "landing",
+  "name": "SB-Landing",
+  "id": "SB-Landing",
+  "source": "github"
 }

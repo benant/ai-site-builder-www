@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "SB-Freelancer",
-    "id":  "SB-Freelancer",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "portfolio",
+  "name": "SB-Freelancer",
+  "id": "SB-Freelancer",
+  "source": "github"
 }

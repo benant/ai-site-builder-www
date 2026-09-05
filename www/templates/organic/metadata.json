@@ -2,12 +2,23 @@
   "id": "organic",
   "name": "Organic",
   "tone": "이커머스 · 식료품 · 그린",
-  "category": "ecommerce",
-  "tags": ["ecommerce", "grocery", "organic", "bootstrap5"],
+  "category": "shop",
+  "tags": [
+    "ecommerce",
+    "grocery",
+    "organic",
+    "bootstrap5"
+  ],
   "license": "MIT",
   "sourceUrl": "https://themewagon.com/themes/organic/",
   "previewUrl": "./organic/index.html",
   "workZip": "./organic/work.zip",
-  "pages": ["index"],
-  "colors": { "primary": "#3aaf6c", "background": "#ffffff", "text": "#333333" }
+  "pages": [
+    "index"
+  ],
+  "colors": {
+    "primary": "#3aaf6c",
+    "background": "#ffffff",
+    "text": "#333333"
+  }
 }

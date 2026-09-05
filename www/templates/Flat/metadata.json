@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "Flat",
-    "id":  "Flat",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "agency",
+  "name": "Flat",
+  "id": "Flat",
+  "source": "themewagon"
 }

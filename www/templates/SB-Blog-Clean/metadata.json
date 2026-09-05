@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "SB-Blog-Clean",
-    "id":  "SB-Blog-Clean",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "blog",
+  "name": "SB-Blog-Clean",
+  "id": "SB-Blog-Clean",
+  "source": "github"
 }

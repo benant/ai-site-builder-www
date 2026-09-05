@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "Agency",
-    "id":  "Agency",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "agency",
+  "name": "Agency",
+  "id": "Agency",
+  "source": "themewagon"
 }

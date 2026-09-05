@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "Clinic",
-    "id":  "Clinic",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "medical",
+  "name": "Clinic",
+  "id": "Clinic",
+  "source": "themewagon"
 }

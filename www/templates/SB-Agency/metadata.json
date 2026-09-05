@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "SB-Agency",
-    "id":  "SB-Agency",
-    "source":  "github"
+{
+  "license": "MIT",
+  "category": "agency",
+  "name": "SB-Agency",
+  "id": "SB-Agency",
+  "source": "github"
 }

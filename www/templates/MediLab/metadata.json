@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "MediLab",
-    "id":  "MediLab",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "medical",
+  "name": "MediLab",
+  "id": "MediLab",
+  "source": "themewagon"
 }

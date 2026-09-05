@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "Mentor",
-    "id":  "Mentor",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "education",
+  "name": "Mentor",
+  "id": "Mentor",
+  "source": "themewagon"
 }

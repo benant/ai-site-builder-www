@@ -1,7 +1,7 @@
-﻿{
-    "license":  "MIT",
-    "category":  "restaurant",
-    "name":  "KnightOne",
-    "id":  "KnightOne",
-    "source":  "themewagon"
+{
+  "license": "MIT",
+  "category": "agency",
+  "name": "KnightOne",
+  "id": "KnightOne",
+  "source": "themewagon"
 }
