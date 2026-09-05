@@ -26,7 +26,7 @@ ASBA.CATEGORIES = [
     defaultPages: 4,
     pagesLabel: "추가 페이지",
     icon: "🎨",
-    templates: ["t-folio-grid", "t-folio-editorial", "dl-meyawo", "dl-Flat", "dl-Poseify", "dl-Kelly", "dl-iPortfolio", "dl-PhotoFolio", "SB-Freelancer", "SB-Resume", "ThemeWagon-Brivon", "SB-3ColPortfolio", "SB-Creative2"]
+    templates: ["t-folio-grid", "t-folio-editorial", "dl-meyawo", "dl-Flat", "dl-Poseify", "dl-Kelly", "dl-iPortfolio", "dl-PhotoFolio", "SB-Freelancer", "SB-Resume", "ThemeWagon-Brivon", "SB-Creative2"]
   },
   {
     code: "business",
@@ -224,7 +224,6 @@ ASBA.TEMPLATES = {
   "ThemeWagon-TraveLand": { name: "TraveLand",    tone: "여행·관광 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
   "ThemeWagon-SparkAdmin": { name: "Spark Admin",  tone: "대시보드·관리자 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
   "Bootstrap-Templates-Bare": { name: "Bootstrap Bare", tone: "미니멀·기본 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
-  "SB-3ColPortfolio": { name: "3 Column Portfolio", tone: "포트폴리오·갤러리 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Blog-Clean": { name: "Blog Clean", tone: "블로그·포스트 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Blog-Home": { name: "Blog Home", tone: "블로그·홈 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Creative2": { name: "Creative 2", tone: "크리에이티브·에이전시 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
