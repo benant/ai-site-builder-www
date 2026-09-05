@@ -223,7 +223,6 @@ ASBA.TEMPLATES = {
   "ThemeWagon-SpiceHaven": { name: "SpiceHaven",  tone: "레스토랑·카페 (HTML5)", source: "downloaded", framework: "html5" },
   "ThemeWagon-TraveLand": { name: "TraveLand",    tone: "여행·관광 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
   "ThemeWagon-SparkAdmin": { name: "Spark Admin",  tone: "대시보드·관리자 (Bootstrap 5)", source: "downloaded", framework: "bootstrap-5" },
-  "Bootstrap-Templates-Bare": { name: "Bootstrap Bare", tone: "미니멀·기본 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Blog-Clean": { name: "Blog Clean", tone: "블로그·포스트 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Blog-Home": { name: "Blog Home", tone: "블로그·홈 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
   "SB-Creative2": { name: "Creative 2", tone: "크리에이티브·에이전시 (Bootstrap 4)", source: "downloaded", framework: "bootstrap-4" },
